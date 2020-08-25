@@ -26,7 +26,7 @@ function setup() {
 
 function feedDog(){
 
-  //dogSprite.addImage(happyDog);
+  dogSprite.addImage(happyDog);
   
   foodObj.updateFoodStock(foodObj.getFoodStock()-1);
   database.ref('/').update({
